@@ -1,4 +1,4 @@
-// services/s3.service.js
+
 const { s3Client } = require('../config/config');
 const {
   PutObjectCommand,

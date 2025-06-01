@@ -1,4 +1,4 @@
-// app.js
+
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
@@ -12,6 +12,6 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
-app.use(photoRoutes); // now clean and mounted at /photos
+app.use(photoRoutes);
 
 module.exports = app;

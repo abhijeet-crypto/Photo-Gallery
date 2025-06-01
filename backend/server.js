@@ -1,5 +1,3 @@
-// server.js
-
 const app = require('./app');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
@@ -13,7 +11,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/photoapp';
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  serverSelectionTimeoutMS: 10000, // 10s timeout
+  serverSelectionTimeoutMS: 10000,
 });
 
 mongoose.connection.on('connected', () => {

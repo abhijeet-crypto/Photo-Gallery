@@ -1,4 +1,4 @@
-// services/photo.service.js
+
 const Photo = require("../models/photo.model");
 const Album = require("../models/album.model");
 const { uploadToS3 } = require("./s3.service");

@@ -1,4 +1,4 @@
-// ConfirmDeleteModal.jsx
+
 import React from "react";
 
 function ConfirmDeleteModal({ onClose, onConfirm, count }) {

@@ -475,8 +475,8 @@ function MainContainer() {
             </div>
           ))}
           {loading && (
-            <div className="text-center text-gray-400 text-sm">
-              Loading more photos...
+            <div className="flex justify-center items-center py-8">
+              <div className="w-6 h-6 border-2 border-t-transparent border-white rounded-full animate-spin" />
             </div>
           )}
         </div>
