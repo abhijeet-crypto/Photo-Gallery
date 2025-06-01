@@ -66,7 +66,11 @@ docker run -d --name minio \
   -e "MINIO_ROOT_USER=admin" \
   -e "MINIO_ROOT_PASSWORD=password" \
   quay.io/minio/minio server /data --console-address ":9001"
+```
 
+## Demo
+
+<img width="1440" alt="Screenshot 2025-06-01 at 2 16 35 PM" src="https://github.com/user-attachments/assets/31d00d45-a721-4294-81d9-ff16f6e64324" />
 
 
 🧪 Features
